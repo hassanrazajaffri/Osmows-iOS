@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Xcode 7.0" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Categories" representedClassName="Categories" syncable="YES">
+        <attribute name="categoryID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="categoryNameAR" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryNameEN" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="categoryThumbImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sortID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="Dishes" representedClassName="Dishes" syncable="YES">
+        <attribute name="categoryID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="dishDescriptionAR" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dishDescriptionEN" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dishFullImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dishID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="dishMediumImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dishNameAR" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dishNameEN" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dishPrice" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="dishThumbImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sortID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="Menu" syncable="YES">
+        <attribute name="createdBy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isActive" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="isDelete" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="menuID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="menuTitleAR" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="menuTitleEN" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modifiedBy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modifiedOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="restaurantID" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="startTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ServingTable" representedClassName="ServingTable" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="guestCapacity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="guestName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isOnCall" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="noOfGuest" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderTypeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="statusID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="statusName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tableID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tableNameAR" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tableNameEN" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tableNo" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="tableStatusAR" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tableStatusColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tableStatusGlowColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tableStatusNameEN" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="waiterName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Categories" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Dishes" positionX="-54" positionY="18" width="128" height="210"/>
+        <element name="ServingTable" positionX="-54" positionY="72" width="128" height="315"/>
+        <element name="Menu" positionX="-45" positionY="144" width="128" height="225"/>
+    </elements>
+</model>
